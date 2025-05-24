@@ -1,0 +1,110 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PantanalFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PantanalFlix</h1>
+  </header>
+
+  <section class="banner">
+    <h2>Explore a beleza e os desafios do Pantanal</h2>
+  </section>
+
+  <section class="catalogo">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pantanal.jpg/640px-Pantanal.jpg" alt="Pantanal">
+      <h3>O que é o Pantanal?</h3>
+      <a href="https://pt.wikipedia.org/wiki/Pantanal" target="_blank">Saiba mais</a>
+    </div>
+
+    <div class="card">
+      <img src="https://agenciadenoticias.ms.gov.br/wp-content/uploads/2022/10/IMG_9503-scaled.jpg" alt="Urbanização no Pantanal">
+      <h3>Urbanização e seus impactos</h3>
+      <a href="https://www.ecycle.com.br/urbanizacao-pantanal/" target="_blank">Ler artigo</a>
+    </div>
+
+    <div class="card">
+      <img src="https://s2.static.brasilescola.uol.com.br/be/2023/01/queimadas-pantanal.jpg" alt="Queimadas">
+      <h3>Queimadas no Pantanal</h3>
+      <a href="https://brasilescola.uol.com.br/geografia/queimadas-no-pantanal.htm" target="_blank">Entenda melhor</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Feito por Bebel - Projeto Pantanal Verde e Rosa</p>
+  </footer>
+</body>
+</html>
+
+
+---
+
+style.css
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f2f9;
+  color: #333;
+}
+
+header {
+  background-color: #007f5f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner {
+  background-color: #ff66b2;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #007f5f;
+}
+
+.card a {
+  text-decoration: none;
+  color: #ff66b2;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #007f5f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
